@@ -7,37 +7,7 @@ print("Minha lista de compras para hoje é:")
 for i in lista:
     print("-",i)
 
-Resultado:
-Minha lista de compras para hoje é:
-- laranja
-- maçã
-- feijão
-- carne
 
 
 
-Estrutura de tomada de decisão:
-
-nota1 = float(input("Digite a nota 1: "))
-nota2 = float(input("Digite a nota 2: "))
-
-media = (nota1 + nota2) / 2
-
-print("Sua média é",media)
-
-if media >= 7:
-    print("Aprovado")
-else:
-    print("Reprovado")
-
-Resultados:
-Digite a nota 1: 5
-Digite a nota 2: 9
-Sua média é 7.0
-Aprovado
-
-Digite a nota 1: 5.9
-Digite a nota 2: 8
-Sua média é 6.95
-Reprovado
   
